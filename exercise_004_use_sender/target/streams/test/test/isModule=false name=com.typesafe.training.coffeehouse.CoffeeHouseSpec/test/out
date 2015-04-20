@@ -1,0 +1,5 @@
+[0m[[0minfo[0m] [0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0minfo[0m] [0m[32mSending a message to CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending a 'coffee brewing' message as response[0m[0m

@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a child actor with the name 'barista'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a child actor with the name 'waiter'[0m[0m
+[0m[[0minfo[0m] [0m[32mSending CreateGuest to CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a Guest[0m[0m

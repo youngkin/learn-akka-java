@@ -1,0 +1,10 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.typesafe.training.coffeehouse.CoffeeHouseSpec, org.scalatest.tools.Framework$$anon$1@7ba5ff9b, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.typesafe.training.coffeehouse.CoffeeHouseAppSpec, org.scalatest.tools.Framework$$anon$1@7ba5ff9b, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 741 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	com.typesafe.training.coffeehouse.CoffeeHouseAppSpec[0m
+[0m[[0mdebug[0m] [0m	com.typesafe.training.coffeehouse.CoffeeHouseSpec[0m

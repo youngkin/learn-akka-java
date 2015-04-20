@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="exercise_013_another_faulty_actor" external.linked.project.path="$MODULE_DIR$/../../exercise_013_another_faulty_actor" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target/scala-2.11/classes" />
+    <output-test url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target/scala-2.11/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor">
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target/scala-2.11/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target/scala-2.11/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target/scala-2.11/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target/scala-2.11/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../exercise_013_another_faulty_actor/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="common" exported="" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.google.guava:guava:18.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe:config:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-actor_2.11:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.akka:akka-slf4j_2.11:2.3.9:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: com.typesafe.akka:akka-testkit_2.11:2.3.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.5:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.11.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.3:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.11:1.0.2:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.11:2.2.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.6:jar" level="project" />
+  </component>
+</module>

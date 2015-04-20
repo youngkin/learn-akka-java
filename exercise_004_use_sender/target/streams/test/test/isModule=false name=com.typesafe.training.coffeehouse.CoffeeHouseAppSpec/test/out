@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mCoffeeHouseAppSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling argsToOpts[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return the correct opts for the given args[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling applySystemProperties[0m[0m
+[0m[[0minfo[0m] [0m[32m- should apply the system properties for the given opts[0m[0m
+[0m[[0minfo[0m] [0m[32mCreating CoffeeHouseApp[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a top-level actor named 'coffee-house'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending a message to CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in logging CoffeeHouse's response at info[0m[0m

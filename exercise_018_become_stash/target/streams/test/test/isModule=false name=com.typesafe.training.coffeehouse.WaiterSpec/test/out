@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mWaiterSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mSending ServeCoffee to Waiter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending ApproveCoffee to CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32mSending Complaint to Waiter[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending PrepareCoffee to Barista[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in a FrustratedException if maxComplaintCount exceeded[0m[0m

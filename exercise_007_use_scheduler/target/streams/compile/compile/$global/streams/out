@@ -1,0 +1,29 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set(/Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/Guest.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/Waiter$ServeCoffee.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/CoffeeHouseApp.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/CoffeeHouse$CreateGuest.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/Waiter$CoffeeServed.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/Guest$CoffeeFinished.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/CoffeeHouse.class, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes/com/typesafe/training/coffeehouse/Waiter.class)[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set(/Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/Guest.java, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/Waiter.java, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/CoffeeHouseApp.java, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/CoffeeHouse.java)[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/Guest.java, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/Waiter.java, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/CoffeeHouseApp.java, /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/src/main/java/com/typesafe/training/coffeehouse/CoffeeHouse.java)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Java sources to /Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_007_use_scheduler/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mAttempting to call javac directly...[0m
+[0m[[0mdebug[0m] [0mcom.sun.tools.javac.Main not found with appropriate method signature; forking javac instead[0m
+[0m[[0mdebug[0m] [0mForking javac: javac @/var/folders/hn/0wkw8q_11zg91bq4ssmpv5042m3kbj/T/sbt_3486af33/argfile[0m
+[0m[[0mdebug[0m] [0mjavac returned exit code: 0[0m
+[0m[[0mdebug[0m] [0mJava compilation took 0.918685444 s[0m
+[0m[[0mdebug[0m] [0mJava analysis took 0.037152847 s[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mBaristaSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mSending PrepareCoffee to Barista[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending a CoffeePrepared response after prepareCoffeeDuration[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending a CoffeePrepared response with a random Coffee for an inaccurate one[0m[0m

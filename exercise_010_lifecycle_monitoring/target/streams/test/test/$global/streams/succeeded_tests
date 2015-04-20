@@ -1,0 +1,7 @@
+#Successful Tests
+#Fri Apr 17 16:40:57 GMT 2015
+com.typesafe.training.coffeehouse.GuestSpec=1429288857109
+com.typesafe.training.coffeehouse.BaristaSpec=1429288857245
+com.typesafe.training.coffeehouse.WaiterSpec=1429288857741
+com.typesafe.training.coffeehouse.CoffeeHouseAppSpec=1429288856841
+com.typesafe.training.coffeehouse.CoffeeHouseSpec=1429288857693

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="SBT 1" modules="base,common,entry_state,exercise_001_implement_actor,exercise_002_top_level_actor,exercise_003_message_actor,exercise_004_use_sender,exercise_005_create_child_actors,exercise_006_actor_state,exercise_007_use_scheduler,exercise_008_keep_actor_busy,exercise_009_stop_actor,exercise_010_lifecycle_monitoring,exercise_011_faulty_actor,exercise_012_custom_supervision,exercise_013_another_faulty_actor,exercise_014_self_healing,exercise_015_detect_bottleneck,exercise_016_use_router,exercise_017_config_dispatcher,exercise_018_become_stash,exercise_019_use_ask_pattern">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-language:_" />
+        <parameter value="-target:jvm-1.7" />
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

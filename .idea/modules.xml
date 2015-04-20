@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base.iml" filepath="$PROJECT_DIR$/.idea/modules/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-build.iml" filepath="$PROJECT_DIR$/.idea/modules/base-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-build.iml" filepath="$PROJECT_DIR$/.idea/modules/common-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry_state.iml" filepath="$PROJECT_DIR$/.idea/modules/entry_state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry_state-build.iml" filepath="$PROJECT_DIR$/.idea/modules/entry_state-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_001_implement_actor.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_001_implement_actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_001_implement_actor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_001_implement_actor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_002_top_level_actor.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_002_top_level_actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_002_top_level_actor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_002_top_level_actor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_003_message_actor.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_003_message_actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_003_message_actor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_003_message_actor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_004_use_sender.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_004_use_sender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_004_use_sender-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_004_use_sender-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_005_create_child_actors.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_005_create_child_actors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_005_create_child_actors-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_005_create_child_actors-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_006_actor_state.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_006_actor_state.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_006_actor_state-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_006_actor_state-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_007_use_scheduler.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_007_use_scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_007_use_scheduler-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_007_use_scheduler-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_008_keep_actor_busy.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_008_keep_actor_busy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_008_keep_actor_busy-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_008_keep_actor_busy-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_009_stop_actor.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_009_stop_actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_009_stop_actor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_009_stop_actor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_010_lifecycle_monitoring.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_010_lifecycle_monitoring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_010_lifecycle_monitoring-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_010_lifecycle_monitoring-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_011_faulty_actor.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_011_faulty_actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_011_faulty_actor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_011_faulty_actor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_012_custom_supervision.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_012_custom_supervision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_012_custom_supervision-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_012_custom_supervision-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_013_another_faulty_actor.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_013_another_faulty_actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_013_another_faulty_actor-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_013_another_faulty_actor-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_014_self_healing.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_014_self_healing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_014_self_healing-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_014_self_healing-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_015_detect_bottleneck.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_015_detect_bottleneck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_015_detect_bottleneck-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_015_detect_bottleneck-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_016_use_router.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_016_use_router.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_016_use_router-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_016_use_router-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_017_config_dispatcher.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_017_config_dispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_017_config_dispatcher-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_017_config_dispatcher-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_018_become_stash.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_018_become_stash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_018_become_stash-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_018_become_stash-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_019_use_ask_pattern.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_019_use_ask_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise_019_use_ask_pattern-build.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise_019_use_ask_pattern-build.iml" />
+    </modules>
+  </component>
+</project>

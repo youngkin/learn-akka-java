@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mTerminalSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling Command.apply[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create the correct CreateGuest command for the given input[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create the GetStatus command for the given input[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create the Quit command for the given input[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create the Unknown command for illegal input[0m[0m

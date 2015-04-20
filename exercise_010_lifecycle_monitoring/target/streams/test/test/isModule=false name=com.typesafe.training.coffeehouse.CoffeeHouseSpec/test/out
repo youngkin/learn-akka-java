@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mCoffeeHouseSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mCreating CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in logging a status message at debug[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a child actor with the name 'barista'[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a child actor with the name 'waiter'[0m[0m
+[0m[[0minfo[0m] [0m[32mSending CreateGuest to CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in creating a Guest[0m[0m
+[0m[[0minfo[0m] [0m[32mSending ApproveCoffee to CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in forwarding PrepareCoffee to Barista if caffeineLimit not yet reached[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in logging a status message at info if caffeineLimit reached[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in stopping the Guest if caffeineLimit reached[0m[0m
+[0m[[0minfo[0m] [0m[32mOn termination of Guest, CoffeeHouse[0m[0m
+[0m[[0minfo[0m] [0m[32m- should remove the guest from the caffeineLimit bookkeeper[0m[0m

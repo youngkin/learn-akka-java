@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mCoffeeSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcoffees[0m[0m
+[0m[[0minfo[0m] [0m[32m- should contain Akkaccino, CaffeJava and MochaPlay[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling order[0m[0m
+[0m[[0minfo[0m] [0m[32m- should create the correct Beverage for a known code[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw an IllegalArgumentException for an unknown code[0m[0m
+[0m[[0minfo[0m] [0m[32mCalling orderOther[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return an other Coffee than the given one[0m[0m

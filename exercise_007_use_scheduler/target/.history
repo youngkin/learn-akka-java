@@ -1,0 +1,9 @@
+run
+test
+run
+test
+clean
+test
+clean
+test
+next

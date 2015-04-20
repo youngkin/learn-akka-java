@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0mRunning com.typesafe.training.coffeehouse.CoffeeHouseApp [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/Software/Learning/akka/fttaj-coffee-house/exercise_002_top_level_actor/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/Software/Learning/akka/fttaj-coffee-house/common/target/scala-2.11/classes[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.9.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.2.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.6.jar[0m
+[0m[[0mdebug[0m] [0m	/Users/uyounri/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.3.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-5 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-5 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread coffee-house-system-akka.actor.default-dispatcher-5 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread coffee-house-system-akka.actor.default-dispatcher-5 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m

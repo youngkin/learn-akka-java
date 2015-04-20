@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mGuestSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mSending CoffeeServed to Guest[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in increasing the coffeeCount and log a status message at info[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending ServeCoffee to Waiter after finishCoffeeDuration[0m[0m
+[0m[[0minfo[0m] [0m[32mSending CoffeeFinished to Guest[0m[0m
+[0m[[0minfo[0m] [0m[32m- should result in sending ServeCoffee to Waiter[0m[0m
