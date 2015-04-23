@@ -1,5 +1,18 @@
 # Exercise 018: Changing Actor Behavior
 
+## Overview
+The major classes that comprise this application are:
+
+1. **CoffeeHouseApp** - The main entry point for the application. It provides the bootstrapping necessary to get the application into a running state.
+2. **CoffeeHouse** - This is the main controller for the entire application. It creates and controls all the other actors in the application.
+3. **Barista** - Implements the behavior associated with a coffee house barista who is responsible for making the coffee requested by guests.
+4. **Guest** - Implements the behavior associated with Guests, or customers, who consume the coffee offerings of the Coffee House.
+5. **Waiter** - Implements the behavior associated with a Waiter that accepts orders from Guests, forwards those orders to the Barista, and serves the completed coffee drink to the guest.
+
+The **Barista** is only human, and as such, makes mistakes from time to time. Mistakes result in the **Guest** getting a coffee drink that they didn't order. When this happens the **Guest** complains and eventually gets the coffee drink that they actually ordered. 
+
+The **CoffeeHouse** is a place where **Guests** congregate, **Waiters** and **Baristas** are employees, and implements the policies of the business (e.g., **Guests** can only consume so much coffee/caffeine).
+
 ## Eclipse Reminder (Only if your IDE is Eclipse based)
 
 If you are using *Eclipse* as your IDE, you will need to import this exercise. **Attention**: It is **crucial** that you **complete this exercise** before running `next`.

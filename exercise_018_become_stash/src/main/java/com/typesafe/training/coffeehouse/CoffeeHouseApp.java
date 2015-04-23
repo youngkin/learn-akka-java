@@ -20,6 +20,25 @@ import java.util.regex.Pattern;
 
 public class CoffeeHouseApp implements Terminal{
 
+    /**
+     *
+     * Bootstrap method for the entire Akka application. It sets up the Actor
+     * System used by the application and constructs a class instance which
+     * in turn starts the application.
+     *
+     * This application is controlled by the terminal (i.e., command line).
+     *
+     */
+    public static void main(final String[] args) throws IOException{
+        final Map<String, String> opts = argsToOpts(Arrays.asList(args));
+        applySystemProperties(opts);
+        final String name = opts.getOrDefault("name", "coffee-house");
+
+        final ActorSystem system = ActorSystem.create(String.format("%s-system", name));
+        final CoffeeHouseApp coffeeHouseApp = new CoffeeHouseApp(system);
+        coffeeHouseApp.run();
+    }
+
     public static final Pattern optPattern = Pattern.compile("(\\S+)=(\\S+)");
 
     private final ActorSystem system;
@@ -32,16 +51,6 @@ public class CoffeeHouseApp implements Terminal{
         this.system = system;
         log = Logging.getLogger(system, getClass().getName());
         coffeeHouse = createCoffeeHouse();
-    }
-
-    public static void main(final String[] args) throws IOException{
-        final Map<String, String> opts = argsToOpts(Arrays.asList(args));
-        applySystemProperties(opts);
-        final String name = opts.getOrDefault("name", "coffee-house");
-
-        final ActorSystem system = ActorSystem.create(String.format("%s-system", name));
-        final CoffeeHouseApp coffeeHouseApp = new CoffeeHouseApp(system);
-        coffeeHouseApp.run();
     }
 
     public static Map<String, String> argsToOpts(final List<String> args){

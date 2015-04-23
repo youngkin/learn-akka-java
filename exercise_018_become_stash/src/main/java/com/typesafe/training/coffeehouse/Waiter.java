@@ -11,6 +11,10 @@ import akka.japi.pf.ReceiveBuilder;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
+/**
+ * AbstractLoggingActors have the built-in ability to log by simply using the log() function.
+ * NOTE: extending this class prevents the extension of other classes such as the AbstractActorWithStash.
+ */
 public class Waiter extends AbstractLoggingActor{
 
     private final ActorRef barista;
@@ -48,6 +52,12 @@ public class Waiter extends AbstractLoggingActor{
         return Props.create(Waiter.class, () -> new Waiter(coffeeHouse,
                 barista, maxComplaints));
     }
+
+    // ------------------------------- [Message definitions] ------------------------------------ //
+    //
+    // Message definitions must be immutable AND contain toString(), equals(), and hashCode()     //
+    //                                                                                            //
+    // ------------------------------------------------------------------------------------------ //
 
     public static final class ServeCoffee{
 
@@ -165,16 +175,5 @@ public class Waiter extends AbstractLoggingActor{
             guest = aGuest;
         }
 
-//        public FrustratedException(String s) {
-//            super(s);
-//        }
-//
-//        public FrustratedException(String message, Throwable cause) {
-//            super(message, cause);
-//        }
-//
-//        public FrustratedException(Throwable cause) {
-//            super(cause);
-//        }
     }
 }

@@ -10,6 +10,10 @@ import akka.actor.Props;
 import akka.japi.pf.ReceiveBuilder;
 import scala.concurrent.duration.FiniteDuration;
 
+/**
+ * AbstractLoggingActors have the built-in ability to log by simply using the log() function.
+ * NOTE: extending this class prevents the extension of other classes such as the AbstractActorWithStash.
+ */
 public class Guest extends AbstractLoggingActor{
 
     private final ActorRef waiter;
@@ -58,18 +62,27 @@ public class Guest extends AbstractLoggingActor{
             () -> new Guest(waiter, favoriteCoffee, finishCoffeeDuration, caffeineLimit));
     }
 
-    @Override
-    public void postStop(){
-        log().info("Goodbye!");
+    // ------------------------------------------------------------------------------------------ //
+    // --------- [Helper methods that implement the basic behavior of the class.] --------------- //
+    // ------------------------------------------------------------------------------------------ //
+
+    private void scheduleCoffeeFinished(){
+        context().system().scheduler().scheduleOnce(finishCoffeeDuration, self(),
+                CoffeeFinished.Instance, context().dispatcher(), self());
     }
 
     private void orderFavoriteCoffee(){
         waiter.tell(new Waiter.ServeCoffee(favoriteCoffee), self());
     }
 
-    private void scheduleCoffeeFinished(){
-        context().system().scheduler().scheduleOnce(finishCoffeeDuration, self(),
-            CoffeeFinished.Instance, context().dispatcher(), self());
+
+    // ------------------------------------------------------------------------------------------ //
+    // ---------------------------- [Actor lifecycle methods] ----------------------------------- //
+    // ------------------------------------------------------------------------------------------ //
+
+    @Override
+    public void postStop(){
+        log().info("Goodbye!");
     }
 
     public static final class CaffeineException extends IllegalStateException{
@@ -79,6 +92,12 @@ public class Guest extends AbstractLoggingActor{
             super("Too much caffeine!");
         }
     }
+
+    // ------------------------------- [Message definitions] ------------------------------------ //
+    //
+    // Message definitions must be immutable AND contain toString(), equals(), and hashCode()     //
+    //                                                                                            //
+    // ------------------------------------------------------------------------------------------ //
 
     public static final class CoffeeFinished{
 
